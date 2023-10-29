@@ -1,0 +1,22 @@
+uuid: c9358eee-5f1a-4e56-9eb6-c49f6d1a5511
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - liberty
+_core:
+  default_config_hash: C5B5ZsVWUTgtRrFiUP_M8fp3B4nL8K0rhpLUb-4uTTo
+id: liberty_breadcrumbs
+theme: liberty
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Рядки навіґації'
+  label_display: '0'
+  provider: system
+visibility: {  }

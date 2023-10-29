@@ -1,0 +1,14 @@
+langcode: uk
+attributes:
+  rel:
+    label: Relation
+    description: 'Set relation'
+  accesskey:
+    label: Accesskey
+    description: 'Set accesskey'
+  target:
+    label: Target
+    description: 'Set target'
+  class:
+    label: Class
+    description: 'Set class'

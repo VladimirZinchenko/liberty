@@ -1,0 +1,8 @@
+uuid: 63dd9fb2-fb5f-4064-affe-9e7a86083b6f
+langcode: uk
+status: true
+dependencies: {  }
+id: T43qaxwUQWS5cOCpwG2tGLGOF5UzykA0K-mCFL6oRhs
+label: 'https://liberty.ddev.site'
+context:
+  language: uk

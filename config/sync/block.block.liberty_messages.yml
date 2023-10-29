@@ -1,0 +1,22 @@
+uuid: 265bf0dd-aa68-4266-b64f-b856af460139
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - liberty
+_core:
+  default_config_hash: snt8vPjPT0bOoWpaK2S1pmDY81zx9sXpGNok8n2z0i0
+id: liberty_messages
+theme: liberty
+region: content
+weight: -7
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: Повідомлення
+  label_display: '0'
+  provider: system
+visibility: {  }

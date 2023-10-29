@@ -1,0 +1,22 @@
+uuid: acaae7cf-f128-4f50-a1da-65efeccdc119
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - liberty
+_core:
+  default_config_hash: Kl769hbWjKhmOMmQy761gYZjZS26kRgXeGdfW2JTDPE
+id: liberty_local_tasks
+theme: liberty
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Вкладки
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: true
+visibility: {  }

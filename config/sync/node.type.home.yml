@@ -1,0 +1,18 @@
+uuid: a9256c34-dc32-4f25-9453-c585b2a7c7ed
+langcode: uk
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: Home
+type: home
+description: 'Вміст головної сторінки'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

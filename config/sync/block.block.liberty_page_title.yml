@@ -1,0 +1,20 @@
+uuid: 084624b2-828f-44c1-8392-ed2ae5bce9d0
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - liberty
+_core:
+  default_config_hash: yNlf5y3IvbjBGFNmFYUk2wo0Ltz6aWakufZPREeQhRY
+id: liberty_page_title
+theme: liberty
+region: content
+weight: -6
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Заголовок сторінки'
+  label_display: '0'
+  provider: core
+visibility: {  }

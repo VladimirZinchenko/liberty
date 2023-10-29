@@ -1,0 +1,20 @@
+uuid: 9b708dae-2d59-48f3-aec6-c6936bde1ab4
+langcode: uk
+status: true
+dependencies:
+  theme:
+    - liberty
+_core:
+  default_config_hash: 0i3KZWtLIILnACU6x_YxoadL4NpICJVWPLT1ajHGmSE
+id: liberty_local_actions
+theme: liberty
+region: content
+weight: -2
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Основні адміністративні дії'
+  label_display: '0'
+  provider: core
+visibility: {  }

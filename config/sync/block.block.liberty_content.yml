@@ -1,0 +1,22 @@
+uuid: 668556e3-979b-4132-b476-27eb96f02c3d
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - liberty
+_core:
+  default_config_hash: VBvlaRN43ugD6_bVAGCwQ-ItbBKY5bwME6tuaJNvzf4
+id: liberty_content
+theme: liberty
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Основний вміст сторінки'
+  label_display: '0'
+  provider: system
+visibility: {  }

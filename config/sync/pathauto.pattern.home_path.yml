@@ -1,0 +1,22 @@
+uuid: 9ef7d0dd-2453-45b6-be83-64b5000a98e5
+langcode: uk
+status: true
+dependencies:
+  module:
+    - node
+id: home_path
+label: 'Home path'
+type: 'canonical_entities:node'
+pattern: '[node:title]'
+selection_criteria:
+  a7b27fc2-8227-4cd1-920b-41ae4750d281:
+    id: 'entity_bundle:node'
+    negate: false
+    uuid: a7b27fc2-8227-4cd1-920b-41ae4750d281
+    context_mapping:
+      node: node
+    bundles:
+      home: home
+selection_logic: and
+weight: -5
+relationships: {  }

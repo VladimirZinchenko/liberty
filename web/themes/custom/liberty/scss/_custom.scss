@@ -1,0 +1,116 @@
+// Custom variables (overrides).
+
+.page-node-type-home .region-content {
+	padding: 0;
+}
+.navbar-dark, .navbar[data-bs-theme=dark], .footer-dark {
+background-color: #0a3622;
+}
+form {
+@include media-breakpoint-up(md) {
+	margin: auto;
+    width: 50%;
+	}
+}
+.parallax {
+  background-attachment: fixed;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+	@include media-breakpoint-up(lg) {
+	height: 600px;
+	}
+}
+.parallax-bg-1 {
+	background-image: url("/img/parallax-bg-1.jpg");
+}
+.parallax-bg-2 {
+	background-image: url("/img/parallax-bg-2.jpg");
+}
+.parallax-bg-3 {
+	background-image: url("/img/parallax-bg-3.jpg");
+}
+.parallax-bg-4 {
+	background-image: url("/img/parallax-bg-4.jpg");
+}
+.parallax-bg-5 {
+	background-image: url("/img/parallax-bg-5.jpg");
+}
+.parallax-bg-6 {
+	background-image: url("/img/parallax-bg-6.jpg");
+}
+
+.parallax-caption { 
+  padding: $spacer;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.3);
+	p {
+		font-size: $h4-font-size;
+		text-align: center;
+	}
+	@include media-breakpoint-up(lg) {
+		h1, h2, h3 {
+			margin: 0;
+				& + p {
+				margin-top: ($spacer * 1.5);
+			}
+		}
+		p {
+			font-size: $h3-font-size;
+			width: 100%;
+			max-width: 70%;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+
+.parallax-description {
+  padding-top: ($spacer * 4);
+  padding-bottom: ($spacer * 4);
+	p, ul {
+		font-size: $h5-font-size;
+			@include media-breakpoint-up(lg) {
+				width: 100%;
+				max-width: 70%;
+				margin-left: auto;
+				margin-right: auto;
+				font-size: $h4-font-size;
+		}
+	}
+}
+
+figure {
+  margin: 0;
+  position: relative;
+}
+figure h1 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-right: 3px solid #fff;
+  padding: 5px 10px 5px 5px;
+  color: #fff;
+}
+
+video {
+  width: 100%;
+  max-width: 100%;
+}
+
+.hero-wrapper {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  min-height: 100%;
+  min-width: 100%;
+  z-index: -9999;
+}

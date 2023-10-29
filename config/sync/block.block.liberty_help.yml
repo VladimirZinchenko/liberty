@@ -1,0 +1,22 @@
+uuid: 4ab20068-6f1e-4aa9-9b85-c0a45ac382ee
+langcode: uk
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - liberty
+_core:
+  default_config_hash: P21vsXLM88jYyMzdSgob-kRiKr8QWgZ9lbjwpBSOpAQ
+id: liberty_help
+theme: liberty
+region: content
+weight: -3
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Довідка
+  label_display: '0'
+  provider: help
+visibility: {  }

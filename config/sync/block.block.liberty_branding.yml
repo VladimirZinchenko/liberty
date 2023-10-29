@@ -1,0 +1,25 @@
+uuid: d0a03ff5-71b1-4dd4-b289-cb40c25a81c5
+langcode: uk
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - liberty
+_core:
+  default_config_hash: I_OIdSpjvIEY7P-cTG0XYzf7LALa8bpMtJv37R9MyYY
+id: liberty_branding
+theme: liberty
+region: nav_branding
+weight: -6
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Брендування сайту'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }
