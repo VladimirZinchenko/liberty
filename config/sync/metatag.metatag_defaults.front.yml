@@ -8,4 +8,5 @@ id: front
 label: 'Головна сторінка'
 tags:
   canonical_url: '[site:url]'
+  description: "Рішення у галузі виробництва та дистриб'юції крафтових алкогольних напоїв"
   shortlink: '[site:url]'

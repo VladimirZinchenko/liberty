@@ -3,7 +3,7 @@ _core:
 langcode: uk
 uuid: a140aede-bd23-4b3c-b901-4a85671dd327
 name: LCC
-mail: admin@example.com
+mail: info@lcc.org.ua
 slogan: 'Liberty Craft Consulting'
 page:
   403: /node/3

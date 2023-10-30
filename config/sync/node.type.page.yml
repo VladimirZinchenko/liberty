@@ -16,6 +16,6 @@ name: 'Проста сторінка'
 type: page
 description: "<em>Прості сторінки</em> використовуються для розміщення незмінюваного вмісту на кшталт сторінки 'Про нас'."
 help: ''
-new_revision: true
+new_revision: false
 preview_mode: 1
 display_submitted: false
