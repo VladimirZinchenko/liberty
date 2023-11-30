@@ -1,4 +1,4 @@
-uuid: c527943b-e84d-4cfc-9ab5-9a49b962816b
+uuid: 83b06a3a-3497-41f4-bc8a-a9dd83c6cbf5
 langcode: uk
 status: true
 dependencies: {  }
@@ -7,7 +7,6 @@ _core:
 id: node
 label: Вміст
 tags:
-  canonical_url: '[node:url]'
-  description: '[node:summary]'
-  robots: noindex
   title: '[node:title] | [site:name]'
+  description: '[node:summary]'
+  canonical_url: '[node:url]'

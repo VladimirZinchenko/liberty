@@ -1,4 +1,4 @@
-uuid: 9ef7d0dd-2453-45b6-be83-64b5000a98e5
+uuid: abe46898-ad6b-4d91-8184-daa011247eda
 langcode: uk
 status: true
 dependencies:
@@ -9,10 +9,10 @@ label: 'Home path'
 type: 'canonical_entities:node'
 pattern: '[node:title]'
 selection_criteria:
-  a7b27fc2-8227-4cd1-920b-41ae4750d281:
+  fa29bf37-271e-4174-8614-9959142bda69:
     id: 'entity_bundle:node'
     negate: false
-    uuid: a7b27fc2-8227-4cd1-920b-41ae4750d281
+    uuid: fa29bf37-271e-4174-8614-9959142bda69
     context_mapping:
       node: node
     bundles:

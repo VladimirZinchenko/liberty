@@ -5,7 +5,7 @@ first_day: 1
 country:
   default: UA
 timezone:
-  default: UTC
+  default: Europe/Kiev
   user:
     configurable: true
     default: 0

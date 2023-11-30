@@ -1,9 +1,9 @@
-uuid: 77ae07b8-2db4-404c-a0b3-a19aead858ba
+uuid: ed7320a7-ca91-4073-913d-420e4943c701
 langcode: uk
 status: true
 dependencies: {  }
 id: uk
 label: Ukrainian
 direction: ltr
-weight: -10
+weight: 0
 locked: false

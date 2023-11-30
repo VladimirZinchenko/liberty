@@ -1,4 +1,4 @@
-uuid: e3cb66ee-0fda-4e6f-a6ca-8f4754d562b0
+uuid: 90cc319c-6628-47f7-9a55-29228358964e
 langcode: uk
 status: true
 dependencies:
@@ -22,6 +22,10 @@ content:
     third_party_settings: {  }
     weight: 0
     region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
 hidden:
   langcode: true
-  links: true

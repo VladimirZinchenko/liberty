@@ -1,4 +1,4 @@
-uuid: d78f7594-1ba5-4157-ba88-2c787d1c674e
+uuid: bc69e349-e155-4c3e-b51d-9a41e13623a8
 langcode: uk
 status: true
 dependencies:
@@ -7,7 +7,6 @@ dependencies:
     - image.style.thumbnail
   module:
     - image
-    - path
     - user
 _core:
   default_config_hash: FaQ9Ptcpxpg30AtiqRDtl_8zbJArHP1LPfug_s59TOA
@@ -25,12 +24,6 @@ content:
   language:
     weight: 0
     region: content
-  path:
-    type: path
-    weight: 30
-    region: content
-    settings: {  }
-    third_party_settings: {  }
   timezone:
     weight: 6
     region: content

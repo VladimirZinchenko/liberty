@@ -1,11 +1,9 @@
-uuid: b377b267-9f2a-43ae-9074-7fcdd52c3173
+uuid: 150d418d-d4ad-4218-8483-7d25bbc8f3b6
 langcode: uk
 status: true
 dependencies: {  }
-_core:
-  default_config_hash: lBXDpdDPXQtrfTJQhr6MjRJJEEyYSoRJ0acdvHLsWeA
 id: en
-label: Англійська
+label: English
 direction: ltr
-weight: -9
+weight: 1
 locked: false

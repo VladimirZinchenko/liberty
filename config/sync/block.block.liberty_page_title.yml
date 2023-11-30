@@ -1,5 +1,5 @@
-uuid: 084624b2-828f-44c1-8392-ed2ae5bce9d0
-langcode: uk
+uuid: d9c895a1-2a04-4049-8ae1-886b19405f20
+langcode: en
 status: true
 dependencies:
   theme:
@@ -14,7 +14,7 @@ provider: null
 plugin: page_title_block
 settings:
   id: page_title_block
-  label: 'Заголовок сторінки'
+  label: 'Page title'
   label_display: '0'
   provider: core
 visibility: {  }

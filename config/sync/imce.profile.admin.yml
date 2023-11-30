@@ -1,4 +1,4 @@
-uuid: 962296d1-362b-461d-b478-5538565e6332
+uuid: c7877b4e-3c31-4adb-bfe3-a0debd35274d
 langcode: uk
 status: true
 dependencies: {  }
@@ -14,10 +14,10 @@ conf:
   quota: 0.0
   maxwidth: 0
   maxheight: 0
-  replace: 1
-  thumbnail_style: thumbnail
+  replace: 0
+  thumbnail_style: ''
   thumbnail_grid_style: false
-  ignore_usage: true
+  ignore_usage: false
   url_alter: false
   folders:
     -

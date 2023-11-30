@@ -1,5 +1,5 @@
-uuid: 265bf0dd-aa68-4266-b64f-b856af460139
-langcode: uk
+uuid: 1de8ea23-6be1-4518-8c67-a99fb51e3fc6
+langcode: en
 status: true
 dependencies:
   module:
@@ -16,7 +16,7 @@ provider: null
 plugin: system_messages_block
 settings:
   id: system_messages_block
-  label: Повідомлення
+  label: Messages
   label_display: '0'
   provider: system
 visibility: {  }
