@@ -31,6 +31,7 @@
 		height: 600px;
 	}
 }
+/*
 .parallax-bg-1 {
 	background-image: url("/img/parallax-bg-1.jpg");
 }
@@ -49,6 +50,27 @@
 .parallax-bg-6 {
 	background-image: url("/img/parallax-bg-6.jpg");
 }
+*/
+
+.parallax-bg-1 {
+	background-image: url("/img/parallax-bg-1.webp");
+}
+.parallax-bg-2 {
+	background-image: url("/img/parallax-bg-2.webp");
+}
+.parallax-bg-3 {
+	background-image: url("/img/parallax-bg-3.webp");
+}
+.parallax-bg-4 {
+	background-image: url("/img/parallax-bg-4.webp");
+}
+.parallax-bg-5 {
+	background-image: url("/img/parallax-bg-5.webp");
+}
+.parallax-bg-6 {
+	background-image: url("/img/parallax-bg-6.webp");
+}
+
 .parallax-caption { 
 	padding: $spacer;
 	color: #ffffff;

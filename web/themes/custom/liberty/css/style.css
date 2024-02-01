@@ -11247,23 +11247,43 @@ code {
     height: 600px;
   }
 }
+/*
 .parallax-bg-1 {
-  background-image: url("/themes/custom/liberty//img/parallax-bg-1.jpg");
+	background-image: url("/img/parallax-bg-1.jpg");
 }
 .parallax-bg-2 {
-  background-image: url("/themes/custom/liberty//img/parallax-bg-2.jpg");
+	background-image: url("/img/parallax-bg-2.jpg");
 }
 .parallax-bg-3 {
-  background-image: url("/themes/custom/liberty//img/parallax-bg-3.jpg");
+	background-image: url("/img/parallax-bg-3.jpg");
 }
 .parallax-bg-4 {
-  background-image: url("/themes/custom/liberty//img/parallax-bg-4.jpg");
+	background-image: url("/img/parallax-bg-4.jpg");
 }
 .parallax-bg-5 {
-  background-image: url("/themes/custom/liberty//img/parallax-bg-5.jpg");
+	background-image: url("/img/parallax-bg-5.jpg");
 }
 .parallax-bg-6 {
-  background-image: url("/themes/custom/liberty//img/parallax-bg-6.jpg");
+	background-image: url("/img/parallax-bg-6.jpg");
+}
+*/
+.parallax-bg-1 {
+  background-image: url("/themes/custom/liberty//img/parallax-bg-1.webp");
+}
+.parallax-bg-2 {
+  background-image: url("/themes/custom/liberty//img/parallax-bg-2.webp");
+}
+.parallax-bg-3 {
+  background-image: url("/themes/custom/liberty//img/parallax-bg-3.webp");
+}
+.parallax-bg-4 {
+  background-image: url("/themes/custom/liberty//img/parallax-bg-4.webp");
+}
+.parallax-bg-5 {
+  background-image: url("/themes/custom/liberty//img/parallax-bg-5.webp");
+}
+.parallax-bg-6 {
+  background-image: url("/themes/custom/liberty//img/parallax-bg-6.webp");
 }
 .parallax-caption {
   padding: 1rem;
