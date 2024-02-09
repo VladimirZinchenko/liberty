@@ -1,0 +1,22 @@
+uuid: 854f0cc8-1e42-4ba1-8810-9adfc4a0f4fb
+langcode: uk
+status: true
+dependencies:
+  config:
+    - node.type.home
+id: node.home.promote
+field_name: promote
+entity_type: node
+bundle: home
+label: 'Винесено на головну сторінку'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: Увімкнено
+  off_label: Вимкнено
+field_type: boolean
