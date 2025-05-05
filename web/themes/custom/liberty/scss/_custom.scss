@@ -31,6 +31,17 @@
 		height: 600px;
 	}
 }
+@supports ( -webkit-touch-callout : none) {
+	.parallax {
+		background-attachment: scroll;
+	}
+}
+
+@supports not ( -webkit-touch-callout : none) {
+	.parallax {
+		background-attachment: fixed;
+	}
+}
 /*
 .parallax-bg-1 {
 	background-image: url("/img/parallax-bg-1.jpg");
